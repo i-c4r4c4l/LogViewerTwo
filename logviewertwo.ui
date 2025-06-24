@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LogViewerTwo</class>
+ <widget class="QMainWindow" name="LogViewerTwo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1024</width>
+    <height>768</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1024</width>
+    <height>768</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>LogViewerTwo</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <widget class="QWidget" name="wgtHeader" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1001</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="lblTitle">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>LOG VIEWER</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnExit">
+     <property name="geometry">
+      <rect>
+       <x>909</x>
+       <y>10</y>
+       <width>71</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="wgtFilter" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>109</y>
+      <width>1001</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <widget class="QCheckBox" name="chkLog">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>81</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Log</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="chkMilling">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>30</y>
+       <width>82</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Milling</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="chkAll">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>30</y>
+       <width>82</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>All</string>
+     </property>
+    </widget>
+    <widget class="QDateEdit" name="fromDateEdit">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>30</y>
+       <width>110</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QDateEdit" name="toDateEdit">
+     <property name="geometry">
+      <rect>
+       <x>709</x>
+       <y>30</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnSearch">
+     <property name="geometry">
+      <rect>
+       <x>889</x>
+       <y>30</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>1023</width>
+       <height>768</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Search</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="wgtFileList" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>210</y>
+      <width>321</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="lblFileList">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>91</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>File List</string>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="fileListWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>30</y>
+       <width>321</width>
+       <height>501</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="wgtFileContent" native="true">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>210</y>
+      <width>671</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="lblFileContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>121</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>File contents</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="fileContentViewer">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>30</y>
+       <width>671</width>
+       <height>501</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,88 @@
+# Qt-specific files
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+Makefile*
+*build-*
+*.qm
+.qmake.cache
+.qmake.stash
+
+# Qt unit tests
+target_wrapper.*
+
+# QtCreator
+*.autosave
+
+# QtCreator Qml
+*.qmlproject.user
+*.qmlproject.user.*
+
+# QtCreator CMake
+CMakeLists.txt.user*
+
+# QtCreator 4.8< compilation database 
+compile_commands.json
+
+# QtCreator local machine specific files for imported projects
+*creator.user*
+
+# Visual Studio files
+*.sln
+*.vcproj
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+.vs/
+
+# Build directories
+build*/
+debug/
+release/
+Debug/
+Release/
+
+# Temporary files
+*~
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Compiled Object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.app
+*.dmg
+
+# Dependencies
+.qmake.cache
+.qmake.stash
+
+# Generated documentation
+doc/html/
+doc/latex/ 
