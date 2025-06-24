@@ -1,6 +1,6 @@
 # LogViewerTwo
 
-A modern, feature-rich Qt C++ desktop application for viewing and analyzing log files with advanced filtering and search capabilities.
+A modern, Qt-based C++ desktop application for smart log file viewing and filtering. Designed for real-world use cases like embedded diagnostics and system monitoring.
 
 ![Qt](https://img.shields.io/badge/Qt-5%2F6-green.svg)
 ![C++](https://img.shields.io/badge/C%2B%2B-11-blue.svg)
@@ -52,7 +52,7 @@ A modern, feature-rich Qt C++ desktop application for viewing and analyzing log 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/LogViewerTwo.git
+   git clone https://github.com/i-c4r4c4l/LogViewerTwo.git
    cd LogViewerTwo
    ```
 
@@ -140,6 +140,6 @@ If you encounter any issues or have feature requests, please [open an issue](htt
 
 ---
 
-**Author**: [Your Name]  
+**Author**: Ravshan M.  
 **Version**: 1.0.0  
-**Last Updated**: December 2024 
+**Last Updated**: June 2025 
