@@ -1,0 +1,102 @@
+Time, Value
+10:00, 22.5
+11:00, 23.0
+System started at 240617 08:00
+Temperature reading: 36.5
+240618: Motor overheating detected
+Shutdown scheduled on 240619
+Normal operation resumed on 240620
+Date,Time,MachineID,Status,Temperature,Speed,Voltage,Current,Message
+2024-06-15,08:00:01,MCH01,Running,38.2,12000,220,1.2,System OK
+2024-06-15,08:00:02,MCH01,Running,38.5,12010,219,1.3,Stable
+2024-06-15,08:00:03,MCH01,Running,38.7,11990,221,1.1,Monitoring
+2024-06-15,08:00:04,MCH01,Running,39.0,12005,220,1.2,Stable
+2024-06-15,08:00:05,MCH01,Running,39.1,12020,219,1.3,System OK
+2024-06-15,08:00:06,MCH01,Running,39.3,12030,221,1.2,OK
+2024-06-15,08:00:07,MCH01,Running,39.4,12010,222,1.2,Monitoring
+2024-06-15,08:00:08,MCH01,Running,39.6,12025,223,1.1,Check Temp
+2024-06-15,08:00:09,MCH01,Warning,40.0,11950,223,1.4,Temperature High
+2024-06-15,08:00:10,MCH01,Error,41.5,11800,222,1.5,Shutdown Initiated
+2024-06-15,08:00:11,MCH01,Offline,0.0,0,0,0,System Off
+2024-06-15,08:01:01,MCH02,Running,37.5,12500,224,1.0,System OK
+2024-06-15,08:01:02,MCH02,Running,37.6,12510,224,1.0,Stable
+2024-06-15,08:01:03,MCH02,Running,37.7,12490,223,1.1,Stable
+2024-06-15,08:01:04,MCH02,Running,37.9,12530,225,1.0,OK
+2024-06-15,08:01:05,MCH02,Running,38.0,12540,226,1.1,Monitoring
+...
+(repeat up to 200+ lines for full scroll test)
+Date,Time,MachineID,Status,Temperature,Speed,Voltage,Current,Message
+2024-06-15,08:00:01,MCH01,Running,38.2,12000,220,1.2,System OK
+2024-06-15,08:00:02,MCH01,Running,38.5,12010,219,1.3,Stable
+2024-06-15,08:00:03,MCH01,Running,38.7,11990,221,1.1,Monitoring
+2024-06-15,08:00:04,MCH01,Running,39.0,12005,220,1.2,Stable
+2024-06-15,08:00:05,MCH01,Running,39.1,12020,219,1.3,System OK
+2024-06-15,08:00:06,MCH01,Running,39.3,12030,221,1.2,OK
+2024-06-15,08:00:07,MCH01,Running,39.4,12010,222,1.2,Monitoring
+2024-06-15,08:00:08,MCH01,Running,39.6,12025,223,1.1,Check Temp
+2024-06-15,08:00:09,MCH01,Warning,40.0,11950,223,1.4,Temperature High
+2024-06-15,08:00:10,MCH01,Error,41.5,11800,222,1.5,Shutdown Initiated
+2024-06-15,08:00:11,MCH01,Offline,0.0,0,0,0,System Off
+2024-06-15,08:01:01,MCH02,Running,37.5,12500,224,1.0,System OK
+2024-06-15,08:01:02,MCH02,Running,37.6,12510,224,1.0,Stable
+2024-06-15,08:01:03,MCH02,Running,37.7,12490,223,1.1,Stable
+2024-06-15,08:01:04,MCH02,Running,37.9,12530,225,1.0,OK
+2024-06-15,08:01:05,MCH02,Running,38.0,12540,226,1.1,Monitoring
+...
+(repeat up to 200+ lines for full scroll test)
+Date,Time,MachineID,Status,Temperature,Speed,Voltage,Current,Message
+2024-06-15,08:00:01,MCH01,Running,38.2,12000,220,1.2,System OK
+2024-06-15,08:00:02,MCH01,Running,38.5,12010,219,1.3,Stable
+2024-06-15,08:00:03,MCH01,Running,38.7,11990,221,1.1,Monitoring
+2024-06-15,08:00:04,MCH01,Running,39.0,12005,220,1.2,Stable
+2024-06-15,08:00:05,MCH01,Running,39.1,12020,219,1.3,System OK
+2024-06-15,08:00:06,MCH01,Running,39.3,12030,221,1.2,OK
+2024-06-15,08:00:07,MCH01,Running,39.4,12010,222,1.2,Monitoring
+2024-06-15,08:00:08,MCH01,Running,39.6,12025,223,1.1,Check Temp
+2024-06-15,08:00:09,MCH01,Warning,40.0,11950,223,1.4,Temperature High
+2024-06-15,08:00:10,MCH01,Error,41.5,11800,222,1.5,Shutdown Initiated
+2024-06-15,08:00:11,MCH01,Offline,0.0,0,0,0,System Off
+2024-06-15,08:01:01,MCH02,Running,37.5,12500,224,1.0,System OK
+2024-06-15,08:01:02,MCH02,Running,37.6,12510,224,1.0,Stable
+2024-06-15,08:01:03,MCH02,Running,37.7,12490,223,1.1,Stable
+2024-06-15,08:01:04,MCH02,Running,37.9,12530,225,1.0,OK
+2024-06-15,08:01:05,MCH02,Running,38.0,12540,226,1.1,Monitoring
+...
+(repeat up to 200+ lines for full scroll test)
+Date,Time,MachineID,Status,Temperature,Speed,Voltage,Current,Message
+2024-06-15,08:00:01,MCH01,Running,38.2,12000,220,1.2,System OK
+2024-06-15,08:00:02,MCH01,Running,38.5,12010,219,1.3,Stable
+2024-06-15,08:00:03,MCH01,Running,38.7,11990,221,1.1,Monitoring
+2024-06-15,08:00:04,MCH01,Running,39.0,12005,220,1.2,Stable
+2024-06-15,08:00:05,MCH01,Running,39.1,12020,219,1.3,System OK
+2024-06-15,08:00:06,MCH01,Running,39.3,12030,221,1.2,OK
+2024-06-15,08:00:07,MCH01,Running,39.4,12010,222,1.2,Monitoring
+2024-06-15,08:00:08,MCH01,Running,39.6,12025,223,1.1,Check Temp
+2024-06-15,08:00:09,MCH01,Warning,40.0,11950,223,1.4,Temperature High
+2024-06-15,08:00:10,MCH01,Error,41.5,11800,222,1.5,Shutdown Initiated
+2024-06-15,08:00:11,MCH01,Offline,0.0,0,0,0,System Off
+2024-06-15,08:01:01,MCH02,Running,37.5,12500,224,1.0,System OK
+2024-06-15,08:01:02,MCH02,Running,37.6,12510,224,1.0,Stable
+2024-06-15,08:01:03,MCH02,Running,37.7,12490,223,1.1,Stable
+2024-06-15,08:01:04,MCH02,Running,37.9,12530,225,1.0,OK
+2024-06-15,08:01:05,MCH02,Running,38.0,12540,226,1.1,Monitoring
+...
+(repeat up to 200+ lines for full scroll test)
+Date,Time,MachineID,Status,Temperature,Speed,Voltage,Current,Message
+2024-06-15,08:00:01,MCH01,Running,38.2,12000,220,1.2,System OK
+2024-06-15,08:00:02,MCH01,Running,38.5,12010,219,1.3,Stable
+2024-06-15,08:00:03,MCH01,Running,38.7,11990,221,1.1,Monitoring
+2024-06-15,08:00:04,MCH01,Running,39.0,12005,220,1.2,Stable
+2024-06-15,08:00:05,MCH01,Running,39.1,12020,219,1.3,System OK
+2024-06-15,08:00:06,MCH01,Running,39.3,12030,221,1.2,OK
+2024-06-15,08:00:07,MCH01,Running,39.4,12010,222,1.2,Monitoring
+2024-06-15,08:00:08,MCH01,Running,39.6,12025,223,1.1,Check Temp
+2024-06-15,08:00:09,MCH01,Warning,40.0,11950,223,1.4,Temperature High
+2024-06-15,08:00:10,MCH01,Error,41.5,11800,222,1.5,Shutdown Initiated
+2024-06-15,08:00:11,MCH01,Offline,0.0,0,0,0,System Off
+2024-06-15,08:01:01,MCH02,Running,37.5,12500,224,1.0,System OK
+2024-06-15,08:01:02,MCH02,Running,37.6,12510,224,1.0,Stable
+2024-06-15,08:01:03,MCH02,Running,37.7,12490,223,1.1,Stable
+2024-06-15,08:01:04,MCH02,Running,37.9,12530,225,1.0,OK
+2024-06-15,08:01:05,MCH02,Running,38.0,12540,226,1
+
